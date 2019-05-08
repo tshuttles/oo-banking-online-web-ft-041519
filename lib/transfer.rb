@@ -10,11 +10,7 @@ class Transfer
   end 
   
   def valid? 
-    if self.valid? == true && BankAccount.valid? == true 
-      true 
-    else 
-      false 
-    end 
+    
   end 
   
   def execute_transaction
